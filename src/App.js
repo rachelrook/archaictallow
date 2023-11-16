@@ -15,10 +15,9 @@ function App() {
         {/* <HeroSection /> */}
         <Routes>
           <Route path='/' exact element={<Home />}></Route>
-          <Route path='/aboutme' exact element={<AboutMe />}></Route>
+          <Route path='/aboutme' element={<AboutMe />}></Route>
           <Route path='/projects' element={<Projects />}></Route>
           <Route path='/blog' element={<Blog />}></Route>
-          {/* <Route path='/sign-up' component={SignUp} /> */}
         </Routes>
       </Router>
     </>

@@ -80,6 +80,7 @@ Make sure that you have a TypeScript file open, press Ctrl+Shift+P (or Cmd+Shift
 ### Most Used Shortcuts
 alt + Z - brings all characters within view
 Shift+alt+down arrow - drops highlighted text down
+ctrl+shift=e - show explorer / side bar of directory
 
 ### Replace Routes with outdated 'Switch'
 
@@ -92,10 +93,17 @@ You need to use Routes rather than Switch for react-router-dom@6. Something like
     </Routes>
   </BrowserRouter> -->
 
+
   ### Package JSON
-  "scripts": 
+  <!-- "scripts": 
     "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
     "start": "react-scripts start",
     "build": "react-scripts build webpack --config=Scripts/config/webpack.prod.js",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject" -->
+    
+    
+### Routing issues after changing file name casing
+
+delete 'default-development' file in node_modules>.cache
+ 
