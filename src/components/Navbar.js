@@ -36,32 +36,37 @@ function Navbar() {
             <div className="menu-icon" onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
+
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+
               <li className='nav-item'>
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
+
+              <li className='nav-item'>
+                <Link to='/aboutme' className='nav-links' onClick={closeMobileMenu}>
+                  About Me
+                </Link>
+              </li>
+
               <li className='nav-item'>
                 <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
                   Projects
                 </Link>
               </li>
+
               <li className='nav-item'>
-                <a href="http://rubiesoftruth.com">
+                <a href="http://rubiesoftruth.com" className='nav-links' onClick={closeMobileMenu}>
                   Blog
                 </a>
-                {/* <Link to='/blog' className='nav-links' onClick={closeMobileMenu}>
-                  Blog
-                </Link> */}
               </li>
+
               <li className='nav-item'>
               <a href="mailto:rrukavina913@gmail.com" className='nav-links-mobile' onClick={closeMobileMenu}>
                   Contact Me
               </a>
-                {/* <Link to='/contact' className='nav-links-mobile' onClick={closeMobileMenu}>
-                  Contact Me
-                </Link> */}
               </li>
             </ul>
             { button  && <Button buttonStyle='btn--outline'>Contact Me</Button>}
