@@ -31,7 +31,8 @@ function Navbar() {
     <nav className="navbar">
         <div className="navbar-container" >
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              Rachel Rukavina<i className=" fa-solid fa-splotch"></i>
+              Rachel Rukavina
+              <i className=" fa-solid fa-splotch"></i>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

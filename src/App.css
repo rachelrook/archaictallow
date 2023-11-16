@@ -52,3 +52,11 @@
   .center {
     text-align:center;
   }
+
+  .wrap {
+    overflow-wrap: word-break;
+  }
+
+  .pad-30 {
+    padding:10px;
+  }
