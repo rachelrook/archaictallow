@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -9,7 +8,7 @@ function HeroSection() {
       <video src='/videos/green-sky.mp4' autoPlay loop muted />
       <h1>Don't wait for inspiration.</h1>
       <p>It comes while working.</p><br></br>
-      <img className='circle-me' src='/images/me-pink-brick.jpg' />
+      <img className='circle-me' src='/images/me-pink-brick.jpg' alt="Rachel Headshot"/>
       {/* <div className='hero-btns'>
         <Button
           className='btns'
