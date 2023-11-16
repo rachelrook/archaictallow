@@ -9,7 +9,7 @@ function HeroSection() {
       <h1>Don't wait for inspiration.</h1>
       <p>It comes while working.</p><br></br>
       <div className='center'>
-      <a href="/aboutme">
+      <a href="http://rachelrukavina.com/aboutme">
         <img className='circle-me' src='/images/me-pink-brick.jpg' alt="Rachel Headshot"/>
         </a>
       </div>
