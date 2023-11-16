@@ -5,7 +5,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/green-sky.mp4' autoPlay loop muted />
+      <video src='/videos/green-sky.mp4' autoPlay loop muted fixed />
       <h1>Don't wait for inspiration.</h1>
       <p>It comes while working.</p><br></br>
       <img className='circle-me' src='/images/me-pink-brick.jpg' alt="Rachel Headshot"/>
