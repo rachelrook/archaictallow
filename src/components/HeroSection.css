@@ -15,8 +15,8 @@ video {
   justify-content: center;
   align-items: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
-  overflow-x: hidden;
+  position: absolute;
+  top: 0;
 }
 
 .hero-container > h1 {
