@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './HeroSection.css';
+import { Link } from 'react-router-dom';
 
 function HeroSection() {
   return (
@@ -9,9 +10,9 @@ function HeroSection() {
       <h1>Don't wait for inspiration.</h1>
       <p>It comes while working.</p><br></br>
       <div className='center'>
-      <a href="https://rachelrukavina.com/aboutme">
+      <Link to="https://rachelrukavina.com/aboutme">
         <img className='circle-me' src='/images/me-pink-brick.jpg' alt="Rachel Headshot"/>
-        </a>
+        </Link>
       </div>
       
       {/* <div className='hero-btns'>
