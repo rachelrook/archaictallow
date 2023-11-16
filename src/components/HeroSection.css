@@ -17,6 +17,7 @@ video {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
+  bottom: 0;
 }
 
 .hero-container > h1 {
