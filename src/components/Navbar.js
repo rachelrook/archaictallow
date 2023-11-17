@@ -65,7 +65,7 @@ function Navbar() {
               </li>
 
               <li className='nav-item'>
-              <a href="rrukavina913@gmail.com" className='nav-links-mobile' onClick={closeMobileMenu}>
+              <a href="mailto:rrukavina913@gmail.com" className='nav-links-mobile' onClick={closeMobileMenu}>
                   Contact Me
               </a>
               </li>
