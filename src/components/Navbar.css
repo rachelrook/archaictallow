@@ -40,7 +40,7 @@
   
   .nav-menu {
     color:pink;
-    display: grid;
+    display: inline-flex;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
     list-style: none;
