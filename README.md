@@ -109,3 +109,5 @@ delete 'default-development' file in node_modules>.cache
  
  ### Netlify Deploy Routing 404 Error Issue
  Add _redirects file in your public folder Write down inside file: /* /index.html 200 in my case I have no issues with my builder adding .txt extension, i'm using CRA (create react app)
+ 
+ /* /index.html 200 
