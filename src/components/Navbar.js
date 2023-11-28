@@ -63,6 +63,11 @@ function Navbar() {
                   Blog
                 </a>
               </li>
+              <li className='nav-item'>
+                <a href="https://aquamarine-renie-43.tiiny.site/" className='nav-links' onClick={closeMobileMenu}>
+                  Resume
+                </a>
+              </li>
 
               <li className='nav-item'>
               <a href="mailto:rrukavina913@gmail.com" className='nav-links-mobile' >

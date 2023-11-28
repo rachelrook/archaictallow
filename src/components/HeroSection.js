@@ -2,6 +2,8 @@ import React from 'react';
 import '../App.css';
 import './HeroSection.css';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
+import { Button } from './Button';
 
 function HeroSection() {
   return (
@@ -14,6 +16,9 @@ function HeroSection() {
         <img className='circle-me' src='/images/me-pink-brick.jpg' alt="Rachel Headshot"/>
         </Link>
       </div>
+      {/* <Button 
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'>Resume</Button> */}
       
       {/* <div className='hero-btns'>
         <Button

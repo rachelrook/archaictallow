@@ -162,3 +162,9 @@
       transition: 250ms;
     }
   }
+
+  @media screen and (min-width: 960px) {
+    .navbar-logo {
+      font-size: 1rem;
+    }
+  }
