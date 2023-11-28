@@ -3,7 +3,6 @@ import '../App.css';
 import './HeroSection.css';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { Button } from './Button';
 
 function HeroSection() {
   return (
