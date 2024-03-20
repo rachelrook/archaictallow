@@ -5,7 +5,7 @@ import '../../App.css';
 export default function Projects() {
     return <><br></br><br></br><div className='center'>
       <Link to="https://franks-farms.com">
-        <img src='/images/ff-thumb.jpg' alt="Franks Farms"/>
+        <img className="i-size" src='/images/ff-thumb.jpg' alt="Franks Farms"/>
         </Link>
       </div></>
 }

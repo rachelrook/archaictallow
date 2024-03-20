@@ -58,6 +58,12 @@
       margin:0 20% !important;
     }
   }
+  @media screen and (max-width:700px) {
+    .thumb {
+      width: 100% !important;
+  height: auto !important;
+    }
+  }
 
   .center {
     text-align:center;
@@ -69,4 +75,13 @@
 
   .pad-30 {
     padding:10px;
+  }
+
+  .thumb {
+    width: 100% !important;
+  height: auto !important;
+  }
+
+  .i-size {
+    max-width: 300px !important;
   }
