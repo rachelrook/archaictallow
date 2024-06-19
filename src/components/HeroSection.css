@@ -44,10 +44,13 @@ video {
 
 .hero-btns {
   margin-top: 32px;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-btns .btn {
   margin: 6px;
+  padding:10px;
 }
 
 .fa-play-circle {
@@ -87,4 +90,8 @@ video {
   width: 50%;
   border-radius: 50% 50%;
   border: 5px solid hotpink;
+}
+.social {
+  width: 5%;
+  padding:10px;
 }
