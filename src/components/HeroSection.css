@@ -95,3 +95,9 @@ video {
   width: 5%;
   padding:10px;
 }
+
+@media screen and (max-width: 768px) {
+  .social {
+    width: 60px;
+  }
+}
