@@ -4,8 +4,8 @@ import '../../App.css';
 
 export default function Projects() {
     return <><br></br><br></br><div className='center'>
-      <Link to="https://franks-farms.com">
-        <img className="i-size" src='/images/ff-thumb.jpg' alt="Franks Farms"/>
+      <Link to="https://www.americasbestcleans.com/">
+        <img className="i-size" src='/images/abcd-rr.png' alt="Americas Best Carpet & Duct Cleaning"/>
         </Link><br></br><br></br>
       <Link to="https://rubiesoftruth.com">
         <img className="i-size" src='/images/rubyruth.jpg' alt="Rubies of Truth"/>
