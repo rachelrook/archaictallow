@@ -58,11 +58,11 @@ function Navbar() {
                 </Link>
               </li>
 
-              <li className='nav-item'>
+              {/* <li className='nav-item'>
                 <a href="http://rubiesoftruth.com" className='nav-links' onClick={closeMobileMenu}>
                   Blog
                 </a>
-              </li>
+              </li> */}
               <li className='nav-item'>
                 <a href="https://aquamarine-renie-43.tiiny.site/" className='nav-links' onClick={closeMobileMenu}>
                   Resume
