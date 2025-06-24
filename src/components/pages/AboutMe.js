@@ -3,14 +3,14 @@ import "../../App.css";
 
 export default function AboutMe() {
     
-    return <h1 className="ph-text f-25">Hello, I'm Rachel.
-    <div className='wrap'>Curious,</div>Creative<div className='wrap'>& Capable</div><div className='pad-30' /><div className='wrap'><i className=" fa-solid fa-splotch"></i><div className='pad-30' />
+    return <h1 className="ph-text f-25">Skin Benefits of Tallow
+   <div className='pad-30' /><div className='wrap'><i className=" fa-solid fa-jar"></i><div className='pad-30' />
     
-    </div>I am a designer and developer with 7 years professional web and software experience, here to serve you with all your application needs.<div className='pad-30' /><div className='wrap'><i className=" fa-solid fa-splotch"></i></div>
+    </div>Beef tallow offers several skin benefits due to its rich composition of fatty acids and vitamins. It serves as an excellent moisturizer, helping to hydrate and nourish the skin while forming a protective barrier that locks in moisture. Additionally, the presence of vitamins A, D, E, and K in beef tallow promotes skin health by supporting cell regeneration and providing anti-inflammatory properties..<br></br><div className='pad-30' /><div className='wrap'><i className=" fa-solid fa-spray-can-sparkles"></i></div>
     
-     {/* <div className='pad-30' />I've been blessed with an insatiable yearning to learn and understand many things, and while I have many hobbies and interests, I've found the world wide web is not only a great way to outlet creativity in many ways, but it's also the best place to share experiences, inspiration, and knowlege.<div className='pad-30' /><i className=" fa-solid fa-splotch"></i>
+  <div className='pad-30' /> This natural fat can also aid in soothing conditions such as eczema and psoriasis, making it a valuable ingredient in skincare formulations. Overall, incorporating beef tallow into skincare routines can enhance skin texture and resilience<div className='pad-30' /><i className=" fa-solid fa-hand-sparkles"></i>
     
-    <div className='pad-30' /> If I can share what I've learned and apply my skills and services in ways which help or inspire others, I consider myself blessed beyond measure. */}
+    <div className='pad-30' />
     </h1>; 
     
     

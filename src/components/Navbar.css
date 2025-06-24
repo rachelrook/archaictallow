@@ -2,7 +2,7 @@
     background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
@@ -19,7 +19,7 @@
   }
   
   .navbar-logo {
-    color: pink;
+    color: white;
     justify-self: start;
     margin-left: -50px;
     cursor: pointer;
@@ -39,7 +39,7 @@
   }
   
   .nav-menu {
-    color:pink;
+    color:white;
     display: inline-flex;
     grid-template-columns: repeat(4, auto);
     grid-gap: 10px;
@@ -55,7 +55,7 @@
   }
   
   .nav-links {
-    color: pink;
+    color: white;
     display: flex;
     align-items: center;
     text-decoration: none;
