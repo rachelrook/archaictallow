@@ -31,8 +31,7 @@ function Navbar() {
     <nav className="navbar">
         <div className="navbar-container" >
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              Rachel Rukavina
-              <i className=" fa-solid fa-splotch"></i>
+              <i className=" fa-solid fa-shopping-bag"></i>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -48,13 +47,13 @@ function Navbar() {
 
               <li className='nav-item'>
                 <Link to='/aboutme' className='nav-links' onClick={closeMobileMenu}>
-                  About Me
+                  About Tallow
                 </Link>
               </li>
 
               <li className='nav-item'>
                 <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
-                  Projects
+                  Products
                 </Link>
               </li>
 
@@ -63,20 +62,15 @@ function Navbar() {
                   Blog
                 </a>
               </li> */}
-              <li className='nav-item'>
-                <a href="https://aquamarine-renie-43.tiiny.site/" className='nav-links' onClick={closeMobileMenu}>
-                  Resume
-                </a>
-              </li>
 
               <li className='nav-item'>
               <a href="mailto:rrukavina913@gmail.com" className='nav-links-mobile' >
-                  Contact Me
+                  Contact
               </a>
               </li>
             </ul>
             { button  &&
-            <Button buttonStyle='btn--outline'>Contact Me</Button>
+            <Button buttonStyle='btn--outline'>Contact</Button>
               }
             </div>
     </nav>
