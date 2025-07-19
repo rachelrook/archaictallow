@@ -106,10 +106,10 @@
     }
   
     .nav-links {
-      text-align: center;
+      /* text-align: center;
       padding: 2rem;
       width: 100%;
-      display: table;
+      display: table; */
     }
   
     .nav-links:hover {
@@ -156,11 +156,24 @@
       transition: all 0.3s ease-out;
     }
   
-    .nav-links-mobile:hover {
+    /* .nav-links-mobile:hover {
       background: pink;
       color: #242424;
       transition: 250ms;
-    }
+    } */
+
+  .nav-menu {
+    color:white;
+    display: inline-flex;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: flex-start;
+    margin-right: 2rem;
+  }
+
   }
 
   @media screen and (min-width: 960px) {
