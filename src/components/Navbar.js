@@ -31,7 +31,7 @@ function Navbar() {
     <nav className="navbar">
 
         <div className="navbar-container" >
-          <img className='at-logo .d-lg-none .d-xl-block' src='/images/archaic-logo-white.png' alt="archaic tallow logo"/>
+          <img className='at-logo .d-none .d-sm-block .d-xl-none' src='/images/archaic-logo-white.png' alt="archaic tallow logo"/>
             <Link to="/" className="navbar-logo nav-links" onClick={closeMobileMenu}>
             </Link>
             <div className="menu-icon" onClick={handleClick}>

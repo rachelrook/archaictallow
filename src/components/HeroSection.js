@@ -8,10 +8,9 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src='/videos/ortho-candles.mp4' autoPlay loop muted fixed />
-      <img className='at-logo .d-sm-none' src='/images/archaic-logo-white.png' alt="archaic tallow logo"/>
       <div className='center'>
-      <Link to="https://archaictallow.com">
-        <img className='circle-me' src='/images/arc.jpg' alt="Archaic Tallow Jar"/>
+        <Link to="https://archaictallow.com">
+          <img className='circle-me' src='/images/arc.jpg' alt="Archaic Tallow Jar"/>
         </Link>
       </div>
       
