@@ -29,9 +29,10 @@ function Navbar() {
   return (
     <>
     <nav className="navbar">
+
         <div className="navbar-container" >
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <i className=" fa-solid fa-shopping-bag"></i>
+          <img className='at-logo .d-lg-none .d-xl-block' src='/images/archaic-logo-white.png' alt="archaic tallow logo"/>
+            <Link to="/" className="navbar-logo nav-links" onClick={closeMobileMenu}>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -57,11 +58,9 @@ function Navbar() {
                 </Link>
               </li>
 
-              {/* <li className='nav-item'>
-                <a href="http://rubiesoftruth.com" className='nav-links' onClick={closeMobileMenu}>
-                  Blog
-                </a>
-              </li> */}
+              <li className='nav-item'>
+               <i className=" fa-solid fa-shopping-bag nav-links"></i>
+              </li>
 
               <li className='nav-item'>
               <a href="mailto:rrukavina913@gmail.com" className='nav-links-mobile' >
