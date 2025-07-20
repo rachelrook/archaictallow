@@ -9,7 +9,7 @@ function HeroSection() {
     <div className='hero-container'>
       <video src='/videos/ortho-candles.mp4' autoPlay loop muted fixed />
       <div className='center'>
-        <Link to="https://archaictallow.com">
+        <Link to="https://buy.stripe.com/test_8x228reM22obgordzIb7y00">
           <img className='circle-me' src='/images/arc.jpg' alt="Archaic Tallow Jar"/>
         </Link>
       </div>
