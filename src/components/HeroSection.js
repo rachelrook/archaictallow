@@ -17,7 +17,7 @@ function HeroSection() {
       <div className='hero-btns'>
 
         <Link to="https://www.instagram.com/archaictallow?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-        <img className='social' src='/images/pink-ig.png' alt="instagram"/>
+        {/* <img className='social' src='/images/blck-ig-icon.png' alt="instagram"/> */}
         </Link>
       </div>
     </div>
