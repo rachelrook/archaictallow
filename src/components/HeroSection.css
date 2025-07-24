@@ -25,6 +25,7 @@ video {
   position: absolute;
   top: 0;
   bottom: 0;
+  background-color:#272822;
 }
 
 .hero-container > h1 {

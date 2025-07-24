@@ -59,11 +59,14 @@ function Navbar() {
               </li>
 
               <li className='nav-item'>
-               <i className=" fa-solid fa-shopping-bag nav-links"></i>
+               {/* <i className=" fa-solid fa-shopping-bag nav-links"></i> */}
+                 <Link to="https://buy.stripe.com/test_8x228reM22obgordzIb7y00" className='nav-links' onClick={closeMobileMenu}>
+                  BUY
+                </Link>
               </li>
 
               <li className='nav-item'>
-              <a href="mailto:rrukavina913@gmail.com" className='nav-links-mobile' >
+              <a to="https://www.instagram.com/direct/t/17843449914079610/" className='nav-links-mobile' >
                   Contact
               </a>
               </li>

@@ -44,9 +44,13 @@
   }
 
   .ph-text {
-    color:black;
+    color:white;
     text-align: center;
     padding:20px;
+  }
+
+  .black {
+    background-color: #272822;
   }
 
   .f-25 {
